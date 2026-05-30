@@ -1,0 +1,32 @@
+# 编译产物
+*.exe
+*.o
+*.obj
+*.out
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 临时文件
+*.tmp
+*.log
+__pycache__/
+*.pyc
+
+# 系统文件
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Claude Code 内部配置
+.config/
+
+# Playwright
+.playwright-mcp/
+
+# 临时截图
+*.png
